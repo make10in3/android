@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--그라데이션은 개발자가 직접 만들어 출력하는게 자연스러움-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:angle="180"
+        android:centerColor="#431C1C"
+        android:endColor="#2197F3"
+        android:startColor="#FFC107">
+
+    </gradient>
+
+</shape>

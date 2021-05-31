@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#FF5722"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00BCD4"/>
+
+<!--
+겹쳐지기는 하나 연산 속도가 조금 더 들기 떄문에
+프레임 레이아웃을 사용할 것을 권장
+-->
+</RelativeLayout>
